@@ -1,1 +1,42 @@
+Define the GridLocation class:
 
+Create a class called GridLocation with attributes row and col.
+Define the RisingTides class:
+
+Create a class called RisingTides.
+Define the __init__ method to initialize instance variables terrain and sources based on the input Terrain object.
+Implement the elevation_extrema method:
+
+Define a method named elevation_extrema that finds the lowest and highest points of the terrain.
+Iterate through each cell of the terrain to find the minimum and maximum elevation.
+Return a list containing the minimum and maximum elevations.
+Implement the flooded_regions_in method:
+
+Define a method named flooded_regions_in that implements the flood-fill algorithm.
+Create a boolean array to represent flooded regions.
+Use a queue to perform the flood-fill algorithm starting from the water sources.
+Return the boolean array indicating flooded regions.
+Implement the is_flooded method:
+
+Define a method named is_flooded that checks if a given cell is flooded at a certain water height.
+Utilize the flooded_regions_in method to determine if the cell is flooded.
+Implement the height_above_water method:
+
+Define a method named height_above_water that calculates the height of a cell above the water.
+Calculate the difference between the land height and water height.
+Print a descriptive message about the height difference.
+Return the absolute height difference.
+Implement the total_visible_land method:
+
+Define a method named total_visible_land that counts the total number of cells above water.
+Utilize the flooded_regions_in method to determine visible land cells.
+Implement the land_lost method:
+
+Define a method named land_lost that calculates the amount of land lost or gained between two water heights.
+Calculate the difference in visible land cells between two water heights.
+Implement the num_of_islands method:
+
+Define a method named num_of_islands that counts the total number of islands on the flooded terrain.
+Implement the union-find algorithm to identify connected land regions.
+Count the unique roots of connected land regions to determine the number of islands.
+Optional: Define helper methods if necessary:
