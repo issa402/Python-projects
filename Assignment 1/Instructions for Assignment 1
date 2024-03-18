@@ -1,0 +1,6 @@
+Create a Python program that calculates the wind chill factor based on the temperature and wind velocity provided as command-line arguments.
+Inside the main() function, check if the correct number of command-line arguments (two) is provided. If not, print an error message instructing the user to provide two arguments (temperature and velocity), and then exit the program.
+Attempt to parse the command-line arguments as floating-point numbers, representing the temperature and velocity values. 
+Check if the temperature and velocity values are within the valid range specified in the problem statement. 
+If the input values are valid, compute the wind chill factor using the provided formula: wind_chill = 35.74 + 0.6215 * temperature + (0.4275 * temperature - 35.75) * pow(velocity, 0.16).
+The program should be executable from the command line by providing two arguments representing the temperature and velocity values, respectively.
