@@ -1,0 +1,5 @@
+Write a Python program to determine the best-rated movie out of a list of movies and their ratings by multiple reviewers.
+The program should prompt the user to enter the number of movies and the number of reviewers.
+Then, the program should ask the user to input the ratings for each movie by each reviewer.
+After receiving the ratings, the program should calculate the total rating for each movie.
+Finally, the program should determine and print the index of the movie with the highest total rating.
